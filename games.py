@@ -53,13 +53,14 @@ def minmax(game, state):
 
     # Body of minmax:
     return max(game.actions(state), key=lambda a: min_value(game.result(state, a)), default=None)
-
+#body gotta work on that
 
 def minmax_cutoff(game, state):
     """Given a state in a game, calculate the best move by searching
     forward all the way to the cutoff depth. At that level use evaluation func."""
     print("your code goes here -15pt")
     pass
+#pretty much the same and add some if statementets for depths
 
 def minmax_player(game, state):
     """uses minmax or minmax with cutoff depth, for AI player"""
@@ -89,7 +90,7 @@ def alpha_beta(game, state):
      this version searches all the way to the leaves."""
     player = game.to_move(state)
 
-    alpha = -np.inf
+    alpha = -np.inf #for the maximize
     beta = np.inf
     best_action = None
     print("alpha_beta: Your code goes here -15pt")
