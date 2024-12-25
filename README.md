@@ -48,8 +48,8 @@ pip install numpy
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/tictactoe-adversarial-search.git
-cd tictactoe-adversarial-search
+https://github.com/faa35/A2-AI.git
+cd A2-AI
 ```
 
 ### Run the Game
