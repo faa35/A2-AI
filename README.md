@@ -57,13 +57,13 @@ cd A2-AI
 Run the game with the default 3x3 board:
 
 ```bash
-python main.py
+ python .\tic-tac-toe.py
 ```
 
 To play with a different board size (e.g., 4x4):
 
 ```bash
-python main.py 4
+ python .\tic-tac-toe.py 4
 ```
 
 ### How to Play
